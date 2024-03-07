@@ -104,7 +104,7 @@ class TestShowRunAllCommandsMasic(object):
         from .mock_tables import dbconnector
         from .mock_tables import mock_single_asic
         importlib.reload(mock_single_asic)
-        dbconnector.load_namespace_config()
+        dbconnector.load_database_config
 
 
 @patch('show.main.run_command')
